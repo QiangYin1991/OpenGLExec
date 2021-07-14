@@ -11,11 +11,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_HelloTriangle", "1_HelloT
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_Uniform", "2_Uniform\2_Uniform.vcxproj", "{E1A81652-3ADF-4F20-B50A-35CD3B1C796C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_Shader", "3_Shader\3_Shader.vcxproj", "{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		glad\glad.vcxitems*{184caeb9-fbe0-44be-a6a1-d9248e72d0dc}*SharedItemsImports = 4
 		glad\glad.vcxitems*{24c863b7-abcf-4a2a-a4dc-3da115be1b65}*SharedItemsImports = 9
 		glad\glad.vcxitems*{394b5348-ee72-4f89-af32-1c2ececd5afb}*SharedItemsImports = 4
+		glad\glad.vcxitems*{def1711a-2a3e-4e65-8ea4-f5658da6ae6f}*SharedItemsImports = 4
 		glad\glad.vcxitems*{e1a81652-3adf-4f20-b50a-35cd3b1c796c}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +52,14 @@ Global
 		{E1A81652-3ADF-4F20-B50A-35CD3B1C796C}.Release|x64.Build.0 = Release|x64
 		{E1A81652-3ADF-4F20-B50A-35CD3B1C796C}.Release|x86.ActiveCfg = Release|Win32
 		{E1A81652-3ADF-4F20-B50A-35CD3B1C796C}.Release|x86.Build.0 = Release|Win32
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Debug|x64.ActiveCfg = Debug|x64
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Debug|x64.Build.0 = Debug|x64
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Debug|x86.ActiveCfg = Debug|Win32
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Debug|x86.Build.0 = Debug|Win32
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Release|x64.ActiveCfg = Release|x64
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Release|x64.Build.0 = Release|x64
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Release|x86.ActiveCfg = Release|Win32
+		{DEF1711A-2A3E-4E65-8EA4-F5658DA6AE6F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
