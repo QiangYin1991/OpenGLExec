@@ -12,6 +12,8 @@ public:
 
 	// uniform
 	void SetFloat(const std::string &name, float value) const;
+	void SetInt(const std::string &name, int value) const;
+	unsigned int ShaderID() const { return shaderID; }
 private:
 	bool GetVertexCode(const char* vertexPath);
 	bool GetFragmentCode(const char* fragmentPath);

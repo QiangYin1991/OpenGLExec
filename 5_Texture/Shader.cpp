@@ -34,6 +34,11 @@ void Shader::SetFloat(const std::string & name, float value) const
 	glUniform1f(glGetUniformLocation(shaderID, name.c_str()), value);
 }
 
+void Shader::SetInt(const std::string & name, int value) const
+{
+	glUniform1i(glGetUniformLocation(shaderID, name.c_str()), value);
+}
+
 bool Shader::GetVertexCode(const char * vertexPath)
 {
 	std::ifstream vShaderFile;
