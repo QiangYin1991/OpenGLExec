@@ -5,7 +5,7 @@
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>../3rdparty/glfw/include;../glad/include;../imgui</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../3rdparty/glfw/include;../glad/include;../imgui;../glm;../stbimage</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>../3rdparty/glfw/libs</AdditionalLibraryDirectories>
